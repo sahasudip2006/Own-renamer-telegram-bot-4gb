@@ -4,32 +4,32 @@ humanize
 
 hachoir
 
-pyrogram==2.0.57
+pyrogram
 
 TgCrypto
 
-pymongo==4.0.2
+pymongo
 
 dnspython
 
-Flask==2.2.2
+Flask
 
-gunicorn==20.1.0
+gunicorn
 
-aiohttp==3.8.1
+aiohttp
 
-pyrogram==2.0.35
+pyrogram
 
-TgCrypto==1.2.5 
+TgCrypto
 
-motor==3.1.2
+motor
 
-dnspython==2.3.0
+dnspython
 
-hachoir==3.2.0
+hachoir
 
-Pillow==9.5.0 
+Pillow
 
-aiohttp==3.8.4
+aiohttp
 
-pytz==2023.3
+pytz
