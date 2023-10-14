@@ -14,15 +14,13 @@ async def about_command_handler(client, message):
     data = find_one(int(BOT_ID))
     total_rename = data['total_rename']
     total_size = data['total_size']
-    await message.reply_text(f"Origional BOT: <a href='http://t.me/S_4GB_RENAME_PRO_BOT'>BOT_NAME</a>\n"
-                              f"Creator: <a href='https://t.me/SUDIPSAHA06'>Original Dev</a>\n" #don't remove this
+    await message.reply_text(f"Origional BOT: <a href='https://t.me/BOT_USERNAME'>BOT_NAME</a>\n"
+                              f"Creator: <a href='https://t.me/SUDIPSAHA06'>🦋 Owner 🦋</a>\n" #don't remove this
                               f"Language: Python3\n"
                               f"Library: Pyrogram 2.0\n"
                               f"Server: KOYEB\n"
                               f"Total Renamed File: {total_rename}\n"
-                              f"Total Size Renamed: {humanbytes(int(total_size))}\n\n"
-                              f"Thank you by owner <a href='https://t.me/OWNER_USERNAME'>OWNER_NAME</a> for your hard work\n\n"
-                              f"Love from<a href='https://t.me/SUDIPSAHA06, or BOT_USERNAME'>**OWNER_NAME, or BOT_NAME**</a> ❤️", quote=True)
+                              f"Total Size Renamed: {humanbytes(int(total_size))}\n\n", quote=True)
 
-if __name__ == '__main__':
+if name == 'main':
     bot.run()
